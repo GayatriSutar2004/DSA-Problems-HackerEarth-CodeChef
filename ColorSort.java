@@ -20,6 +20,7 @@ class Solution{
       int t=arr[m];
       arr[m]=arr[h];
       arr[h]=t;
+      h--;
     }
   }
 }
