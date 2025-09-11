@@ -11,7 +11,7 @@ class Result {
 
       int c=0;
       for(int k:m.keySet()){
-        int v=k.getValue();
+        int v=k.getOrDefault(k,0);
         c=c+v/2;
       }
       return c;
